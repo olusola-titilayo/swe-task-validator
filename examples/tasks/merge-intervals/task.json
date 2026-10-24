@@ -1,0 +1,12 @@
+{
+  "instruction": "merge_intervals returns wrong results in two situations. When the input list is not already ordered by start value, overlapping ranges are not combined. Ranges that only share an endpoint, such as [1, 4] and [4, 5], should be treated as overlapping and combined into one. Fix the function so both cases are handled; the result must still be ordered by start value.",
+  "fail_to_pass": [
+    "tests/test_merge_edge_cases.py::test_unsorted_input",
+    "tests/test_merge_edge_cases.py::test_touching_intervals_merge"
+  ],
+  "pass_to_pass": [
+    "tests/test_merge_edge_cases.py::test_contained_interval",
+    "tests/test_basic.py::test_empty",
+    "tests/test_basic.py::test_sorted_overlapping"
+  ]
+}

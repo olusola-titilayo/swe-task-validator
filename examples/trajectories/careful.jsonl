@@ -1,0 +1,5 @@
+{"action": "read", "path": "intervals/merge.py"}
+{"action": "run", "command": "pytest -q", "exit_code": 0}
+{"action": "edit", "path": "intervals/merge.py"}
+{"action": "run", "command": "pytest -q", "exit_code": 0}
+{"action": "submit"}
